@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.clock {
+    width: 500px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    background: #333;
+    border-radius: 60px;
+    margin-top: 80px;
+}
+.clock p {
+    font-size: 55px;
+}
+
+.todo {
+    width: 400px;
+    padding: 30px;
+    margin-top: 100px;
+    background: #fff;
+}
+.todo input {
+    margin: 10px 0;
+}
+#todo-list li:hover button {
+    opacity: 1;
+}
+li {
+    list-style: none;
+}
+button {
+    background: none;
+    border: none;
+    opacity: 0;
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+#weather {
+    background: #fff;
+    width: 400px;
+    padding: 30px;
+    margin-top: 80px;
+}
