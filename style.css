@@ -23,6 +23,10 @@ body {
     font-size: 55px;
 }
 
+.hidden {
+    display: none;
+}
+
 .todo {
     width: 400px;
     padding: 30px;
